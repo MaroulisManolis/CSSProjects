@@ -1,0 +1,37 @@
+body {
+    font-family: 'Philosopher', sans-serif;
+}
+
+#assignment-instructions {
+    background-color: aquamarine;
+    color: rgb(95, 29, 156);
+    font-family: 'GFS Neohellenic', sans-serif;
+}
+
+.second-li {
+    color: orange;
+}
+
+li {
+    font-family: inherit;
+}
+
+code {
+    color: red;
+    font-family: 'Courier Prime', monospace;
+}
+
+ol {
+    background-color: black;
+    color: white;
+}
+
+ol > .unstyled {
+    background-color: white;
+    color: black;
+}
+
+ol li {
+    background-color: black;
+    color: white;
+}
