@@ -1,0 +1,68 @@
+main {
+    padding-top: 32px;
+}
+
+.plans {
+    width: 80%;
+    border: 4px solid #0e4f1f;
+    border-left: none;
+    margin: 16px 0;
+    padding: 32px;
+}
+
+.plans:hover,
+.plans:active {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-color: #ff5454;
+}
+
+.plans a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 32px;
+}
+
+.plan__subtitle {
+    color: #979797;
+}
+
+.plan__info {
+    padding: 16px;
+    border: 1px solid #0e4f1f;
+    font-size: 20px;
+    color: #0e4f1f;
+    background: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#plus {
+    background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+    background: rgba(234, 252, 237, 0.95);
+    float: right;
+    border-right: none;
+    border-left: 4px solid #0e4f1f;
+    text-align: right;
+}
+
+#free:hover,
+#free:active {
+    border-color: #ff5454;
+}
+
+#premium {
+    background: rgba(14, 79, 31, 0.95);
+}
+#premium .plan__title {
+    color: white;
+}
+
+#premium .plan__subtitle {
+    color: #bbb;
+}
